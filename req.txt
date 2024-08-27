@@ -1,0 +1,8 @@
+pip==22.0.2
+https://huggingface.co/Alvaro8gb/es_breast_cancer_ehr_ner/resolve/main/es_breast_cancer_ehr_ner-any-py3-none-any.whl
+python-dotenv==1.0.1
+openai==0.28.0
+opensearch-py==2.4.2
+textacy==0.13.0
+mysql-connector-python==9.0.0
+sentence_transformers==3.0.1
