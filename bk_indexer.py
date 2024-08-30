@@ -240,10 +240,10 @@ class Indexer(AbstractUMLSearcher):
 
 if __name__ == '__main__':
     
-    indexer = UMLSSearcherElastic("multi_SPA")
+    indexer = Indexer("multi_SPA")
 
     print(str(indexer))
 
-    results = indexer.search("carcinoma")
+    results = indexer.search("boost")
     for r in results:
         print(r)

@@ -27,7 +27,7 @@ inverse_mapping = {v: k for k, v in entity_mapping.items()}
 
 
 NORMALIZE_ENTS = {"CANCER_CONCEPT", 'CANCER_EXP', 'CANCER_LOC', 'CANCER_TYPE',
-                  'CANCER_SUBTYPE', 'CANCER_INTRATYPE', 'SURGERY', 'TRAT', 'TRAT_DRUG'}
+                  'CANCER_SUBTYPE', 'CANCER_INTRATYPE', 'SURGERY', 'TRAT', 'TRAT_SHEMA', 'TRAT_DRUG'}
 
 def extract_entities(text: str):
     text_pre = pre.fix(text)

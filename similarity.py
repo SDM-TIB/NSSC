@@ -18,7 +18,7 @@ def similarity_semantic(term_search: str, term_candidate: str) -> float:
 
     return doc1.similarity(doc2)
 
-esq
+
 def similarity_transformer(term_search: str, term_candidate: str):
 
     sentences = [term_search, term_candidate]
